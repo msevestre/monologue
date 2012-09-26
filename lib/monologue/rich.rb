@@ -101,9 +101,9 @@ if Object.const_defined?("Rich")
     #   config.authentication_method = :authenticate_admin_user!
     # 
     # Default (NOT recommended in production environments): 
-    # config.authentication_method = :none
+     config.authentication_method = :none
 
-    config.authentication_method = :authenticate_admin_user!
+    #config.authentication_method = :authenticate_admin_user!
   end
   
   Rich.insert
